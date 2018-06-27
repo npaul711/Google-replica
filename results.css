@@ -1,0 +1,59 @@
+/* nav bar horizontal */
+ul {
+    list-style-type: none;
+    width: 25%;
+    margin: 0;
+    padding: 0;
+    background-color: #4CAF50;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+li a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    padding: 8px 16px;
+    color: white;
+}
+li a:hover {
+    background-color: rgb(26, 71, 27);
+}
+/* image */
+#moon {
+    
+    margin-left: 30%;
+    margin-right: auto;
+    display: block;
+    padding: 0;
+    
+}
+/* background */
+body{
+    background-color: grey;
+}
+/* search text entry */
+#searcher {
+    text-align: top;
+    margin-left: 50%;
+    margin-top: none;
+
+}
+/* serach button */
+#search {
+    background-color: #4CAF50;
+    border-radius: 8px;
+    border: 2px solid #4CAF50;
+}
+
+/* footer */
+.footer {
+    /*display: block;*/
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(26, 71, 27);
+    color: white;
+    text-align: center;
+}
