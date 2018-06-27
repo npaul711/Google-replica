@@ -3,32 +3,30 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewpoint" content="width-device-width">
-    <title>Google</title>
+    <title>Google replica</title>
     <link rel="stylesheet" href="results.css">
 
 </head>
-<!-- This is a simple google search (sort of a clone - I expanded)from odin: https://www.theodinproject.com/courses/web-development-101/lessons/html-css?ref=lnav
-The nav bar is a part of the exercise
+<!-- This is a simple google search from odin: https://www.theodinproject.com/courses/web-development-101/lessons/html-css?ref=lnav
 -->
 <body>
-    <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#resume">Resume</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#aboutme">About me</a></li>
-        <li><a class="contact" href="#contact">Contact</a></li>
-    </ul>
-<div class="content">
-	<noscript>NO JS!</noscript>
-	<!--<h1 class="header">Full Moon Search</h1> -->
-    <img src="full_moon.jpg" id="moon" alt="Full Moon" width="128" height="128">
-    <form id="searcher">
-        <input type="text" id="bar" name="search">
-        <input type="submit" id="search" value="Search">
-    </form>
-</div>
-<div class="footer">
-    <p>Nick Gladfelter </p>
-</div>
+    <div class="topBar">
+        <div class="logoTop">
+            <img class="logo" alt="Google Logo" src="https://www.google.com.br/images/branding/googlelogo/2x/googlelogo_color_120x44dp.png">
+        </div>
+    </div>
+    <div class="searchBar">
+            <input class="search" type="text" name="search input">
+    </div>
+    <div class="searchCount"></div>
+    <div class="results"></div>
+    <div class="footer">
+            <ul>
+                <li>Help</li>
+                <li>Send Feedback</li>
+                <li>Privacy</li>
+                <li>Terms</li>
+            </ul>
+    </div>
 </body>
 </html>
