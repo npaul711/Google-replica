@@ -1,2 +1,2 @@
 # ODIN
-ODIN web development course
+Google replica page
