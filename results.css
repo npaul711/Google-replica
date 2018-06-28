@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* nav bar horizontal */
+.topBar {
+    background-color: aqua;
+    min-width: 1000px;
+    height: 40px;
+    padding-top: 25px;
+    position: relative;
+}
+/* image */
+.logoTop {
+    /*
+    height: 155px;
+    width: 40px; 
+    */
+    display: inline-block;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+.logo {
+    /*
+    height: 150px;
+    width: 40px; 
+    */
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+/* search text entry */
+.searchBar {
+
+}
+.search {
+        margin-top: 30px;
+        width: 100px;
+        height: 34px;
+        border: 2px solid #e7e7e7;
+        box-shadow: 0 1px 3px 0 #665;
+}
+/* serach button */
+
+
+/* footer */
+.footer {
+    display: block;
+    position: absolute;
+    list-style-type: none;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    color: #665;
+    border-top: 1px solid #e4e4e4;
+    line-height: 10px;
+    margin-right: 15px;
+}
