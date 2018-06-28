@@ -41,7 +41,11 @@ main {
     color: black;
     border: 1px solid rgb(53, 52, 52);
 }
-.buttonSearch a, .buttonLucky a {
+.buttonSearch a {
+    color: #757575;
+    text-decoration: none;
+}
+.buttonLucky a {
     color: #757575;
     text-decoration: none;
 }
